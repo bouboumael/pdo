@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.body-form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.list h2{
+    text-align: center;
+}
+
+.list ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.list li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.message{
+    background-color: rgb(243, 160, 160);
+    color: red;
+    width: 20%;
+    border-radius: 2px;
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.message li{
+    list-style: none;
+}
