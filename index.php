@@ -114,7 +114,7 @@ $friends = $statement->fetchAll(PDO::FETCH_ASSOC);
         <ul>
             <div class="test">
             <?php foreach($friends as $friend): ?>
-            <li><?= $friend['firstname'] . ' ' . $friend['lastname']; ?></li>
+            <li><?= ucfirst($friend['firstname']) . ' ' . ucfirst($friend['lastname']) ?></li>
             </div>
         <?php endforeach ?>
         </ul>
